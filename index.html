@@ -4,6 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ziad Nashaat — Software Engineer</title>
+  <link rel="icon" href="code.png" sizes="any" />
+  <!-- <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" /> -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Crimson+Pro:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet" />
@@ -402,7 +406,7 @@
 
   <!-- HERO -->
   <section id="hero" style="opacity:1;transform:none;">
-    <div class="hero-eyebrow">Software Engineer — Backend Systems</div>
+    <div class="hero-eyebrow">Software Engineer — Backend Developer</div>
     <div class="hero-name">Ziad<br><span>Nashaat</span><span class="cursor"></span></div>
     <div class="hero-bottom">
       <p class="hero-desc">
@@ -419,7 +423,7 @@
         </a>
       </div>
     </div>
-    <div class="hero-counter">Giza, Egypt — Open to Remote</div>
+    <div class="hero-counter">Cairo, Egypt — Open to Remote</div>
   </section>
 
   <!-- ABOUT -->
@@ -431,7 +435,7 @@
     </div>
     <div class="about-grid">
       <div class="about-text">
-        <p>I'm a <span>backend engineer</span> based in Giza, Egypt, building production systems that handle real-world scale — distributed queues, microservices, and containerized deployments.</p>
+        <p>I'm a <span>software engineer</span> based in Giza, Egypt, building robust production systems that handle real-world scale — microservices, and containerized deployments.</p>
         <p>Currently working at a Bahraini fleet management company, where I architect and maintain backend services powering vehicle tracking, reporting pipelines, and event-driven data flows.</p>
         <p>I care about writing systems that are <span>observable, recoverable, and maintainable</span> — and I'm actively expanding toward Go, PostgreSQL, and distributed systems design.</p>
       </div>
@@ -446,7 +450,7 @@
         </div>
         <div class="fact">
           <span class="fact-label">Learning Next</span>
-          <span class="fact-value">Go · PostgreSQL · System Design · AI Integration</span>
+          <span class="fact-value">Go · PostgreSQL · System Design · Distributed Systems</span>
         </div>
         <div class="fact">
           <span class="fact-label">Based In</span>
@@ -523,7 +527,7 @@
           <div class="exp-title">Backend Engineer</div>
           <div class="exp-company">Fleet Management Company</div>
           <div class="exp-desc">
-            Architecting and maintaining backend services for a fleet management platform. Responsibilities include building distributed reporting pipelines, managing message queues, and containerizing services deployed on Docker Swarm. Designed job cancellation flows, stale-state recovery logic, and worker health monitoring across microservices.
+            Architecting and maintaining backend services for a fleet management platform. Responsibilities include managing and maintaining many microservice, building new features and fixing bugs.
           </div>
           <div class="exp-tags">
             <span class="tag">Node.js</span>
@@ -550,9 +554,9 @@
     <div class="projects-grid">
       <div class="project-card">
         <span class="project-num">// 001</span>
-        <h3 class="project-title">Distributed Reporting Pipeline</h3>
+        <h3 class="project-title">Vehicle Tracker</h3>
         <p class="project-desc">
-          A fault-tolerant report generation system built with BullMQ and Redis. Handles concurrent report jobs with lock management, stale-state recovery on service restart, and graceful job cancellation via Redis flags. Deployed as a Docker Swarm service.
+          A real-time vehicle tracking system built with Node.js, featuring live location updates, geofencing, and historical route playback. The system uses a microservices architecture with RabbitMQ for message queuing, Redis for caching and pub/sub, and WebSocket for real-time communication.
         </p>
         <div class="project-footer">
           <div class="exp-tags">
@@ -560,26 +564,43 @@
             <span class="tag">Redis</span>
             <span class="tag">MongoDB</span>
             <span class="tag">Node.js</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Socket.io</span>
           </div>
         </div>
       </div>
       <div class="project-card">
         <span class="project-num">// 002</span>
-        <h3 class="project-title">Fleet Microservices Platform</h3>
+        <h3 class="project-title">GameHaven API</h3>
         <p class="project-desc">
-          Containerized microservices for fleet data management, deployed via Docker Swarm on DigitalOcean. Includes inter-service messaging with RabbitMQ, environment-based config management, and automated recovery strategies on redeploy.
+          GameHaven API is a modular and scalable backend built with Node.js and Express, designed for an e-commerce platform specializing in games. It supports features like user authentication, game management, shopping cart, orders, wishlist, reviews, and admin operations.
         </p>
         <div class="project-footer">
           <div class="exp-tags">
-            <span class="tag">Docker Swarm</span>
+            <span class="tag">Docker</span>
             <span class="tag">RabbitMQ</span>
             <span class="tag">Node.js</span>
-            <span class="tag">DigitalOcean</span>
+            <span class="tag">Redis</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <span class="project-num">// 003</span>
+        <h3 class="project-title">Chat App</h3>
+        <p class="project-desc">
+          A real-time chat application built with Node.js, Express, MongoDB, Socket.IO, and Redis. Features private and group chat rooms with real-time messaging, user authentication, and online status tracking.
+        </p>
+        <div class="project-footer">
+          <div class="exp-tags">
+            <span class="tag">Socket.io</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">Express.js</span>
+            <span class="tag">Redis</span>
           </div>
         </div>
       </div>
       <div class="project-card" style="border-style:dashed;opacity:0.45;">
-        <span class="project-num">// 003</span>
+        <span class="project-num">// 004</span>
         <h3 class="project-title">More Coming Soon</h3>
         <p class="project-desc">
           Building open-source projects as I expand into Go, PostgreSQL, and systems design. Check back or follow on GitHub.
